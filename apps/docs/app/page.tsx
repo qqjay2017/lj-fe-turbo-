@@ -82,7 +82,7 @@ export default function Page(): JSX.Element {
       </div>
 
       <Button className={styles.button}>Click me!</Button>
-      <Card className="w-[350px]">
+      <Card className="tw-w-[350px] tw-bg-red">
         <CardHeader>
           <CardTitle>Create project</CardTitle>
           <CardDescription>

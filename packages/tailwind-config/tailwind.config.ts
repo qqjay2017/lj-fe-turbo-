@@ -7,6 +7,9 @@ const config: Config = {
     "node_modules/@core/ui/**/*.{jsx,tsx,js,ts}",
   ],
   prefix: "tw-",
+  corePlugins: {
+    preflight: false,
+  },
   theme: {
     container: {
       center: true,
@@ -16,6 +19,9 @@ const config: Config = {
       },
     },
     extend: {
+      borderWidth: {
+        1: "1px",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
