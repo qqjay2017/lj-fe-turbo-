@@ -1,6 +1,10 @@
 {
   "extends": "@core/typescript-config/nextjs.json",
   "compilerOptions": {
+    "baseUrl": "",
+    "paths": {
+      "@ui/*": ["node_modules/@core/ui/src/*"]
+    },
     "plugins": [
       {
         "name": "next"

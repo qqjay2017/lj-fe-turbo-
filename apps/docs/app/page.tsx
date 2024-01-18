@@ -2,6 +2,13 @@ import Image from "next/image";
 
 import styles from "./page.module.css";
 import { Button } from "@core/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@core/ui/card";
 
 function Gradient({
   conic,
@@ -75,6 +82,15 @@ export default function Page(): JSX.Element {
       </div>
 
       <Button className={styles.button}>Click me!</Button>
+      <Card className="w-[350px]">
+        <CardHeader>
+          <CardTitle>Create project</CardTitle>
+          <CardDescription>
+            Deploy your new project in one-click.
+          </CardDescription>
+        </CardHeader>
+        <CardContent>AAAA</CardContent>
+      </Card>
 
       <div className={styles.hero}>
         <div className={styles.heroContent}>

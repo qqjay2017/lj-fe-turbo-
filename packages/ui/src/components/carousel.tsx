@@ -8,8 +8,8 @@ import useEmblaCarousel, {
   type EmblaPluginType as CarouselPlugin,
 } from "embla-carousel-react";
 
-import { cn } from "@/utils";
-import { Button } from "@/components/button";
+import { cn } from "@ui/utils";
+import { Button } from "@ui/components/button";
 
 type CarouselProps = {
   opts?: CarouselOptions;
