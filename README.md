@@ -1,3 +1,3 @@
-# Turborepo starter
+## 安装依赖
 
-1
+pnpm add -F @core/tailwind-config tailwindcss
