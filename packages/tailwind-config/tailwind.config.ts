@@ -3,7 +3,7 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./src/**/*.{vue,js,ts,jsx,tsx,mdx}",
-    "node_modules/@core/ui/**/*.{vue,jsx,tsx,js,ts}",
+    "node_modules/@core/ui/**/*.{jsx,tsx,js,ts}",
   ],
   // ... 其他配置
 };
